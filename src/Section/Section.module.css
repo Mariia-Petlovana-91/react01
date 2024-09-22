@@ -1,0 +1,16 @@
+.section{
+	border-radius: 20px;
+	padding: 24px;
+	margin-bottom: 32px;
+	background-color: rgba(223, 226, 226, 0.233);
+}
+
+.section__title{
+	text-align: center;
+	color: rgba(34, 32, 32, 0.753);
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 24px;
+}

@@ -1,0 +1,40 @@
+.table{
+	margin-left:auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+.table__head{
+	padding: 8px;
+	background-color: rgba(253, 58, 123, 0.692);
+}
+
+.table__tittle{
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 8px;
+	padding: 16px;
+	color: white;
+	border: 1px solid rgba(114, 49, 71, 0.692) ;
+}
+
+.table__body{
+	border-left: 1px solid rgba(114, 49, 71, 0.692);
+}
+
+.table__row{
+	border-bottom: 1px solid rgba(114, 49, 71, 0.692);
+}
+
+.table__row:nth-child(even) {
+	background-color: rgba(226, 90, 136, 0.692);
+}
+
+.table__date{
+	padding: 16px;
+	text-align: center;
+	border-right: 1px solid rgba(114, 49, 71, 0.692);
+}

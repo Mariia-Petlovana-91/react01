@@ -1,0 +1,52 @@
+.friends__list{
+	display: flex;
+      justify-content: center;
+}
+
+.friends__item{
+	min-width: 100px;
+	border: 1px solid rgba(49, 48, 48, 0.774);
+	border-radius: 10px;
+	background-color: rgb(223, 201, 243);
+	padding: 24px;
+	margin-right: 24px;
+}
+
+.friends__item:last-child{
+	margin-right: 0px;
+}
+
+.friends__img{
+	margin-bottom: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.friends__name{
+	text-align: center;
+	color: rgba(37, 32, 32, 0.753);
+	font-size: 20px;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 8px;
+}
+
+.friends__online{
+	color: green;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.friends__ofline{
+	color: red;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

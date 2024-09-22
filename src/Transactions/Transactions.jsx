@@ -19,7 +19,7 @@ export default function Transactions({ items }) {
 						<td className={css.table__date}>{item.currency}</td>
                               </tr>
 				))}
-			</tbody>
+			</tbody> 
             </table>
 	)
 }

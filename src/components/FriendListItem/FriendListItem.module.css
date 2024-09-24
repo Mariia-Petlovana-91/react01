@@ -1,0 +1,33 @@
+.friend__img {
+      margin-bottom: 8px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.friend__name {
+      text-align: center;
+      color: rgba(37, 32, 32, 0.753);
+      font-size: 20px;
+      letter-spacing: 0.02em;
+      font-weight: 600;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 8px;
+}
+
+.friend__online {
+      color: green;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      font-weight: 400;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.friend__ofline {
+      color: red;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      font-weight: 400;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -2,6 +2,19 @@
 	margin-left:auto;
 	margin-right: auto;
 	border-collapse: collapse;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.table {
+		width: 400px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.table {
+		width: 600px;
+	}
 }
 
 .table__head{
@@ -11,12 +24,12 @@
 
 .table__tittle{
 	text-align: center;
-	font-size: 24px;
+	font-size: 16px;
 	letter-spacing: 0.02em;
 	font-weight: 600;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin-bottom: 8px;
-	padding: 16px;
+	padding: 8px;
 	color: white;
 	border: 1px solid rgba(114, 49, 71, 0.692) ;
 }
@@ -34,7 +47,7 @@
 }
 
 .table__date{
-	padding: 16px;
+	padding: 8px;
 	text-align: center;
 	border-right: 1px solid rgba(114, 49, 71, 0.692);
 }

@@ -1,4 +1,6 @@
 .profile{
+	margin-left: auto;
+	margin-right: auto;
 	border: 1px solid black;
 	border-radius: 5px;
 	max-width: 320px;
@@ -7,7 +9,7 @@
 }
 
 .profile__info{
-	padding: 24px 0px 16px 0px;
+	padding: 16px 0px 16px 0px;
 	margin: auto;
 }
 

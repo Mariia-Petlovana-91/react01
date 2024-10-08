@@ -1,6 +1,10 @@
 .friends__list{
 	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
       justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .friends__item{
@@ -8,12 +12,10 @@
 	border: 1px solid rgba(49, 48, 48, 0.774);
 	border-radius: 10px;
 	background-color: rgb(223, 201, 243);
-	padding: 24px;
-	margin-right: 24px;
+	padding: 16px;
+	
 }
 
-.friends__item:last-child{
-	margin-right: 0px;
-}
+
 
 
